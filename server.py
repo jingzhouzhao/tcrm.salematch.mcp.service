@@ -22,4 +22,4 @@ async def web_search(query: str) -> str:
         return f"搜索出错: {str(e)}"
 
 if __name__ == "__main__":
-    mcp.run(transport='sse')
+    mcp.run(transport='stdio')
